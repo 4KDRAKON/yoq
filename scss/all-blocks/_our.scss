@@ -1,0 +1,31 @@
+.our{
+    margin-top: 150px;
+    & .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__info{
+        margin-right: 50px;
+    }
+    &__img{
+        margin-left: 50px;
+    }
+    &__title{
+        color: #333D4B;
+        font-family:" Fraunces ";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px; 
+    }
+    &__text{
+        width: 538px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; 
+    }
+}

@@ -1,0 +1,47 @@
+.footer{
+    background-color: #2C343E;
+    & .container{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+
+    &__list{
+        display: flex;
+        list-style: none;
+    }
+    &__item{
+        margin-left: 30px;
+    }
+
+    &__link2{
+        color: #83888F;
+        font-family: Barlow;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+        letter-spacing: 0.923px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover{
+            color: #ffffff;
+        }
+    }
+    &__list2{
+        display: flex;
+        margin-left: 500px;
+    }
+    &__item2{
+        margin-left: 10px;
+        list-style: none;
+    }
+    &__pic{
+       transition: all 0.7s;
+
+        &:hover{
+            fill:#FDD6BA ;
+        }
+    }
+}
